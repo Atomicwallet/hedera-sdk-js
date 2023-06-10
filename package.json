@@ -20,6 +20,7 @@
     },
     "exports": {
         "./package.json": "./package.json",
+        "./browser": "./src/browser.js",
         ".": {
             "types": "./lib/index.d.ts",
             "import": "./src/browser.js",
